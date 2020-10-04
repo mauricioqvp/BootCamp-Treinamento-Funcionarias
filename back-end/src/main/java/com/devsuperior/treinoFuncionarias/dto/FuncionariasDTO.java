@@ -49,4 +49,10 @@ public class FuncionariasDTO {
 		this.phoneNumber = phoneNumber;
 	}
 
+	@Override
+	public String toString() {
+		return "FuncionariasDTO [id=" + id + ", name=" + name + ", phoneNumber=" + phoneNumber + "]";
+	}
+
+	
 }
